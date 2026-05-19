@@ -16,6 +16,7 @@ This repository hosts an advanced machine learning pipeline for predicting **hER
 
 ## Repository Structure
 \`\`\`text
+.
 ├── pipelines/               # Core data processing and training pipelines
 ├── interpretation/          # Downstream evaluation and plotting scripts
 │   ├── eda_report.py
