@@ -15,8 +15,7 @@ This repository hosts an advanced machine learning pipeline for predicting **hER
 * **Chemical Space Projection:** Employs advanced t-SNE + KDE visualization to map the distribution shifts between training and OOD datasets.
 
 ## Repository Structure
-\`\`\`text
-.
+\`\`\`
 ├── pipelines/           # Core data processing and training pipelines
 
 ├── interpretation/          # Downstream evaluation and plotting scripts
