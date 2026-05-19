@@ -40,16 +40,14 @@ This repository hosts an advanced machine learning pipeline for predicting **hER
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/your-username/herg-toxicity-predictor.git
+   ```bash
+   git clone [https://github.com/your-username/herg-toxicity-predictor.git](https://github.com/your-username/herg-toxicity-predictor.git)
    cd herg-toxicity-predictor
-   \`\`\`
-
-2. Create a virtual environment and install dependencies:
+   
+2. Create the environment from the provided configuration file:
    \`\`\`bash
-   conda create -n herg_env python=3.9
+   conda env create -f environment.yml
    conda activate herg_env
-   pip install -r requirements.txt
    \`\`\`
 
 ## Usage
