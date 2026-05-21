@@ -1,0 +1,44 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Large datasets and caches (DO NOT upload to GitHub)
+*.parquet
+*.csv
+*.xlsx
+
+# Serialized models
+*.joblib
+*.pkl
+*.pt
+*.h5
+
+# Keep the directories but ignore their contents (if you have these folders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# Ignore output figures (let users generate their own)
+figures/*
+!figures/.gitkeep
+
+# Ignore model training logs
+src/catboost_info/
+**/catboost_info/
